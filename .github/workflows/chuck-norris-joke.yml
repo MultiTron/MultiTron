@@ -1,0 +1,35 @@
+name: 🤖 Update Chuck Norris Joke
+
+on:
+  schedule:
+    - cron: "0 7 * * *"  # Runs every day at 7:00 UTC
+  workflow_dispatch: # Manual trigger option
+
+jobs:
+  update-joke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Get Chuck Norris Joke
+        id: joke
+        run: |
+          joke=$(curl -s https://api.chucknorris.io/jokes/random?category=dev | jq -r '.value')
+          echo "joke=$joke" >> $GITHUB_OUTPUT
+
+      - name: Replace Joke in README
+        run: |
+          joke="${{ steps.joke.outputs.joke }}"
+          # Escape slashes
+          joke_escaped=$(echo "$joke" | sed 's/[&/\]/\\&/g')
+          sed -i "/<!-- CHUCK_NORRIS_JOKE_START -->/,/<!-- CHUCK_NORRIS_JOKE_END -->/c\\<!-- CHUCK_NORRIS_JOKE_START -->\n🦾 $joke_escaped\n<!-- CHUCK_NORRIS_JOKE_END -->" README.md
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "🤖 Update Chuck Norris joke"
+          git push
