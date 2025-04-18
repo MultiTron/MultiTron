@@ -31,9 +31,10 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "Ivailo Iliev (Bot)"
-          git config --global user.email "ivailo@example.com"  # Optional, can be anything
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+          git config --global user.email "ivailo@example.com"
+          git remote set-url origin https://x-access-token:$GH_PAT@github.com/${{ github.repository }}
           git add README.md
           git diff --cached --quiet || git commit -m "🤖 Update Chuck Norris joke"
           git push
+
 
