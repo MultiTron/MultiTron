@@ -27,9 +27,13 @@ jobs:
           sed -i "/<!-- CHUCK_NORRIS_JOKE_START -->/,/<!-- CHUCK_NORRIS_JOKE_END -->/c\\<!-- CHUCK_NORRIS_JOKE_START -->\n🦾 $joke_escaped\n<!-- CHUCK_NORRIS_JOKE_END -->" README.md
 
       - name: Commit and Push if Changed
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Ivailo Iliev (Bot)"
+          git config --global user.email "ivailo@example.com"  # Optional, can be anything
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
           git add README.md
           git diff --cached --quiet || git commit -m "🤖 Update Chuck Norris joke"
           git push
+
