@@ -1,18 +1,13 @@
-<!-- GitHub Profile README for MultiTron aka Ivailo Iliev -->
-
-<h1 align="center">Hey there! I'm Ivailo Iliev 👋</h1>
-<h3 align="center">Software Engineering Student @ Plovdiv University | Tech Explorer | Code Adorer</h3>
-
----
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamtsNHp2ODdwYzl2OWxwOGozYXRzYnJhdno0ZHBydjkxNWdvZWM5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3fZFvp94ljepXoPe/giphy.gif" width=100%/>
+</div>
 
 ### 🧠 About Me
 
 - 🎓 3rd Year Software Engineering student @ **Plovdiv University "Paisii Hilendarski"**
-- 💻 Passionate about backend development using **C# / ASP.NET**
-- 🛠️ Also dabble in **SQL**, **Android Studio (Kotlin)**, **Java**, **Python**, **HTML/CSS/JS**, and **Arduino**
-- 🌱 Currently exploring: microservices, design patterns, and clean architecture
-- 💬 Ask me about anything C#, .NET, or student life!
-- ⚡ Fun fact: I might debug your code faster than I find my keys 🔑
+- 💻 Passionate about development using **C# / ASP.NET**
+- 🛠️ Also worked with **SQL**, **Java**, **Python**, **HTML/CSS/JS** and **Arduino**
+- 🌱 Currently exploring: **Android Studio (Kotlin)** and **design patterns**
 
 ---
 
@@ -36,7 +31,7 @@
     <source 
       srcset="https://github-readme-stats.vercel.app/api?username=MultiTron&show_icons=true&theme=default"
       media="(prefers-color-scheme: light)" />
-    <img src="https://github-readme-stats.vercel.app/api?username=MultiTron&show_icons=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=MultiTron&show_icons=true" width=80%/>
   </picture>
 
   <picture>
@@ -46,12 +41,10 @@
     <source 
       srcset="https://github-readme-streak-stats.herokuapp.com?user=MultiTron&theme=default"
       media="(prefers-color-scheme: light)" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=MultiTron" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=MultiTron" width=80%/>
   </picture>
 
-  <br/>
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MultiTron&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MultiTron&layout=compact&theme=tokyonight" width=80%/>
 </div>
 
 ---
@@ -84,10 +77,11 @@
 ### 🎯 Currently Aiming For
 
 - 🔄 Better understanding of system design
-- 🔍 Mastering clean architecture in .NET
-- 🌐 Building more real-world full-stack apps
+- 🔍 Mastering design patterns
+- 🌐 Building more interesting real-world apps
 
 ---
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
+yes
