@@ -22,7 +22,11 @@ jobs:
         run: |
           joke=$(curl -s https://api.chucknorris.io/jokes/random?category=dev | jq -r '.value')
           echo "joke=$joke" >> $GITHUB_OUTPUT
-
+          
+      - name: Pull latest changes
+        run: |
+          git pull origin master --rebase
+          
       - name: Replace Joke in README
         run: |
           joke="${{ steps.joke.outputs.joke }}"
@@ -40,9 +44,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Pull latest changes
-        run: |
-          git pull origin master --rebase
 
       - name: Commit changes
         run: |
