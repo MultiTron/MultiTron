@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 Chuck Norris can write multi-threaded applications with a single thread.
+🦾 Chuck Norris compresses his files by doing a flying round house kick to the hard drive.
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
