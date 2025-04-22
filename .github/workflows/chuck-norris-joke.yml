@@ -37,7 +37,7 @@ jobs:
       - name: Add, commit, and push
         uses: mikeal/publish-to-github-action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       #- name: Commit and Push if Changed
       #  env:
       #    GH_PAT: ${{ secrets.GH_PAT }}
