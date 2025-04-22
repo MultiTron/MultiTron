@@ -30,9 +30,10 @@ jobs:
           joke_escaped=$(echo "$joke" | sed 's/[&/\]/\\&/g')
           sed -i "/<!-- CHUCK_NORRIS_JOKE_START -->/,/<!-- CHUCK_NORRIS_JOKE_END -->/c\\<!-- CHUCK_NORRIS_JOKE_START -->\n🦾 $joke_escaped\n<!-- CHUCK_NORRIS_JOKE_END -->" README.md
 
-      #- name: Add s to yes
-      #  run: |
-      #    
+      - name: Add s to yes
+        run: |
+          sed -i -E 's/(yes+)\s*$/\1s/' README.md
+          
 
       - name: Add, commit, and push
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -41,15 +42,5 @@ jobs:
           commit_options: "--no-verify"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #- name: Commit and Push if Changed
-      #  env:
-      #    GH_PAT: ${{ secrets.GH_PAT }}
-      #  run: |
-      #    git config --global user.name "Ivailo Iliev (Bot)"
-      #    git config --global user.email "ivailo@example.com"
-      #    git remote set-url origin https://x-access-token:$GH_PAT@github.com/${{ github.repository }}
-      #    git add README.md
-      #    git diff --cached --quiet || git commit -m "🤖 Update Chuck Norris joke"
-      #    git push
 
 
