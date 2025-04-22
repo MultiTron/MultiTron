@@ -35,9 +35,25 @@ jobs:
           sed -i -E 's/(yes+)\s*$/\1s/' README.md
           
 
-      - name: Add, commit, and push
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Pull latest changes
+        run: |
+          git pull origin master --rebase
+
+      - name: Commit changes
+        run: |
+          git add README.md
+          git diff --cached --quiet || git commit -m "🤖 Update Chuck Norris joke"
+
+      - name: Push changes
+        run: |
+          git push origin master
+
+        #env:
+        #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
