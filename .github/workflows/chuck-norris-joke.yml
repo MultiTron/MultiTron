@@ -36,10 +36,7 @@ jobs:
           
 
       - name: Add, commit, and push
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with: 
-          commit_message: Update README.md
-          commit_options: "--no-verify"
+        uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
