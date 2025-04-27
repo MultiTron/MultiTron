@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 Google won't search for Chuck Norris because it knows you don't find Chuck Norris, he finds you.
+🦾 Chuck Norris' Internet connection is faster upstream than downstream because even data has more incentive to run from him than to him.
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
@@ -84,4 +84,4 @@
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
-yessssssss
+yesssssssss
