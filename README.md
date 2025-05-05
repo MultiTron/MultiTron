@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 Chuck Norris doesn't need garbage collection because he doesn't call .Dispose(), he calls .DropKick().
+🦾 Google won't search for Chuck Norris because it knows you don't find Chuck Norris, he finds you.
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
@@ -84,4 +84,4 @@
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
-yesssssssssssssss
+yessssssssssssssss
