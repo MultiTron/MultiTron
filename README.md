@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 Project managers never ask Chuck Norris for estimations... ever.
+🦾 Chuck Norris's programs can pass the Turing Test by staring at the interrogator.
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
@@ -84,4 +84,4 @@
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
-yessssssssssssssssssssssssssss
+yesssssssssssssssssssssssssssss
