@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 Chuck Norris's beard can type 140 wpm.
+🦾 For Chuck Norris, NP-Hard = O(1).
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
@@ -84,4 +84,4 @@
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
-yesssssssssssssssssssssssssssssss
+yessssssssssssssssssssssssssssssss
