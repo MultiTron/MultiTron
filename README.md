@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 A diff between your code and Chuck Norris's is infinite.
+🦾 Chuck Norris solved the halting problem.
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
@@ -84,4 +84,4 @@
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
-yesssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+yessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
