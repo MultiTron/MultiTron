@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 Chuck Norris is the only human being to display the Heisenberg uncertainty principle - you can never know both exactly where and how quickly he will roundhouse-kick you in the face.
+🦾 There is no Esc key on Chuck Norris' keyboard, because no one escapes Chuck Norris.
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
@@ -84,4 +84,4 @@
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
-yessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+yesssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
