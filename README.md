@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 There is no Esc key on Chuck Norris' keyboard, because no one escapes Chuck Norris.
+🦾 Chuck Norris uses canvas in IE.
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
@@ -84,4 +84,4 @@
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
-yesssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+yessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
