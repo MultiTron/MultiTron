@@ -69,7 +69,7 @@
 ### 🥋 Chuck Norris Dev Joke
 
 <!-- CHUCK_NORRIS_JOKE_START -->
-🦾 Chuck Norris can dereference NULL.
+🦾 Chuck Norris can spawn threads that complete before they are started.
 <!-- CHUCK_NORRIS_JOKE_END -->
 
 ---
@@ -84,4 +84,4 @@
 
 _Thanks for stopping by! Star something cool while you're here ⭐_
 
-yessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+yesssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
